@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TableViewOneController: UITableViewController {
+class TableViewBeginEndUpdatesController: UITableViewController {
     
     var dataSource: [Bool] = (1...2).map { _ in false }
     
