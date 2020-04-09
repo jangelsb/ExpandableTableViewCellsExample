@@ -14,6 +14,9 @@
 		EA403E13243EF271005FF321 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA403E11243EF271005FF321 /* Main.storyboard */; };
 		EA403E15243EF272005FF321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA403E14243EF272005FF321 /* Assets.xcassets */; };
 		EA403E18243EF272005FF321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA403E16243EF272005FF321 /* LaunchScreen.storyboard */; };
+		EA403E20243EF3CC005FF321 /* TableViewType1.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA403E1F243EF3CC005FF321 /* TableViewType1.storyboard */; };
+		EA403E23243EF68E005FF321 /* CollapsibleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA403E22243EF68E005FF321 /* CollapsibleTableViewCell.swift */; };
+		EA403E27243EF759005FF321 /* TableViewOneController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA403E26243EF759005FF321 /* TableViewOneController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		EA403E14243EF272005FF321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA403E17243EF272005FF321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA403E19243EF272005FF321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA403E1F243EF3CC005FF321 /* TableViewType1.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewType1.storyboard; sourceTree = "<group>"; };
+		EA403E22243EF68E005FF321 /* CollapsibleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleTableViewCell.swift; sourceTree = "<group>"; };
+		EA403E26243EF759005FF321 /* TableViewOneController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewOneController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,13 +65,16 @@
 			isa = PBXGroup;
 			children = (
 				EA403E09243EF271005FF321 /* AppDelegate.swift */,
+				EA403E22243EF68E005FF321 /* CollapsibleTableViewCell.swift */,
 				EA403E0B243EF271005FF321 /* SceneDelegate.swift */,
 				EA403E0D243EF271005FF321 /* FirstViewController.swift */,
 				EA403E0F243EF271005FF321 /* SecondViewController.swift */,
+				EA403E1F243EF3CC005FF321 /* TableViewType1.storyboard */,
 				EA403E11243EF271005FF321 /* Main.storyboard */,
 				EA403E14243EF272005FF321 /* Assets.xcassets */,
 				EA403E16243EF272005FF321 /* LaunchScreen.storyboard */,
 				EA403E19243EF272005FF321 /* Info.plist */,
+				EA403E26243EF759005FF321 /* TableViewOneController.swift */,
 			);
 			path = "Expandable Cells Test";
 			sourceTree = "<group>";
@@ -130,6 +139,7 @@
 			files = (
 				EA403E18243EF272005FF321 /* LaunchScreen.storyboard in Resources */,
 				EA403E15243EF272005FF321 /* Assets.xcassets in Resources */,
+				EA403E20243EF3CC005FF321 /* TableViewType1.storyboard in Resources */,
 				EA403E13243EF271005FF321 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -141,8 +151,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA403E27243EF759005FF321 /* TableViewOneController.swift in Sources */,
 				EA403E10243EF271005FF321 /* SecondViewController.swift in Sources */,
 				EA403E0E243EF271005FF321 /* FirstViewController.swift in Sources */,
+				EA403E23243EF68E005FF321 /* CollapsibleTableViewCell.swift in Sources */,
 				EA403E0A243EF271005FF321 /* AppDelegate.swift in Sources */,
 				EA403E0C243EF271005FF321 /* SceneDelegate.swift in Sources */,
 			);
