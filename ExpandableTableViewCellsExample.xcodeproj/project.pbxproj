@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EA403E06243EF271005FF321 /* ExpandableTableViewCellsExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableTableViewCellsExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA403E06243EF271005FF321 /* Expandable Cells.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Expandable Cells.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA403E09243EF271005FF321 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA403E0B243EF271005FF321 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EA403E12243EF271005FF321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -56,7 +56,7 @@
 		EA403E07243EF271005FF321 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EA403E06243EF271005FF321 /* ExpandableTableViewCellsExample.app */,
+				EA403E06243EF271005FF321 /* Expandable Cells.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 			);
 			name = ExpandableTableViewCellsExample;
 			productName = "Expandable Cells Test";
-			productReference = EA403E06243EF271005FF321 /* ExpandableTableViewCellsExample.app */;
+			productReference = EA403E06243EF271005FF321 /* Expandable Cells.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -316,7 +316,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jangelsb.expandablecells.Expandable-Cells-Test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Expandable Cells";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -334,7 +334,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jangelsb.expandablecells.Expandable-Cells-Test";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Expandable Cells";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "EA403E05243EF271005FF321"
-               BuildableName = "ExpandableTableViewCellsExample.app"
+               BuildableName = "Expandable Cells.app"
                BlueprintName = "ExpandableTableViewCellsExample"
                ReferencedContainer = "container:ExpandableTableViewCellsExample.xcodeproj">
             </BuildableReference>
@@ -45,7 +45,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA403E05243EF271005FF321"
-            BuildableName = "ExpandableTableViewCellsExample.app"
+            BuildableName = "Expandable Cells.app"
             BlueprintName = "ExpandableTableViewCellsExample"
             ReferencedContainer = "container:ExpandableTableViewCellsExample.xcodeproj">
          </BuildableReference>
@@ -62,7 +62,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "EA403E05243EF271005FF321"
-            BuildableName = "ExpandableTableViewCellsExample.app"
+            BuildableName = "Expandable Cells.app"
             BlueprintName = "ExpandableTableViewCellsExample"
             ReferencedContainer = "container:ExpandableTableViewCellsExample.xcodeproj">
          </BuildableReference>
