@@ -16,10 +16,10 @@
             </objects>
             <point key="canvasLocation" x="712" y="-183"/>
         </scene>
-        <!--TableViewBeginEndUpdates-->
+        <!--TableViewReload-->
         <scene sceneID="coM-FE-14L">
             <objects>
-                <viewControllerPlaceholder storyboardName="TableViewBeginEndUpdates" id="bkh-VA-ANw" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="TableViewReload" id="bkh-VA-ANw" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Item" id="duz-Xy-0Dt"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sD9-3G-gb8" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
