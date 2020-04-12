@@ -18,6 +18,7 @@
 		EA403E29243EFCCB005FF321 /* StackViewCollapsibleBaseTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA403E28243EFCCB005FF321 /* StackViewCollapsibleBaseTableViewCell.swift */; };
 		EA5F95292442A6E000079968 /* TableViewReloadController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F95282442A6E000079968 /* TableViewReloadController.swift */; };
 		EA5F952B2442A74300079968 /* TableViewReload.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA5F952A2442A74300079968 /* TableViewReload.storyboard */; };
+		EA5F952D2442B0F600079968 /* StackViewSimpleCollapisbleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA5F952C2442B0F600079968 /* StackViewSimpleCollapisbleTableViewCell.swift */; };
 		EAF57EA7243F00F700F78FC1 /* CollapsibleCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAF57EA6243F00F700F78FC1 /* CollapsibleCell.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +36,7 @@
 		EA403E28243EFCCB005FF321 /* StackViewCollapsibleBaseTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewCollapsibleBaseTableViewCell.swift; sourceTree = "<group>"; };
 		EA5F95282442A6E000079968 /* TableViewReloadController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewReloadController.swift; sourceTree = "<group>"; };
 		EA5F952A2442A74300079968 /* TableViewReload.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = TableViewReload.storyboard; sourceTree = "<group>"; };
+		EA5F952C2442B0F600079968 /* StackViewSimpleCollapisbleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackViewSimpleCollapisbleTableViewCell.swift; sourceTree = "<group>"; };
 		EAF57EA6243F00F700F78FC1 /* CollapsibleCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollapsibleCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -89,6 +91,7 @@
 				EAF57EA6243F00F700F78FC1 /* CollapsibleCell.swift */,
 				EA403E22243EF68E005FF321 /* ConstraintsCollapsibleTableViewCell.swift */,
 				EA403E28243EFCCB005FF321 /* StackViewCollapsibleBaseTableViewCell.swift */,
+				EA5F952C2442B0F600079968 /* StackViewSimpleCollapisbleTableViewCell.swift */,
 			);
 			path = CollapsibleCells;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA5F952D2442B0F600079968 /* StackViewSimpleCollapisbleTableViewCell.swift in Sources */,
 				EA403E27243EF759005FF321 /* TableViewBeginEndUpdatesController.swift in Sources */,
 				EA403E29243EFCCB005FF321 /* StackViewCollapsibleBaseTableViewCell.swift in Sources */,
 				EAF57EA7243F00F700F78FC1 /* CollapsibleCell.swift in Sources */,

@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="ConstraintsCollapsibleCellId" id="FX5-lf-aTo" customClass="ConstraintsCollapsibleExampleTableViewCell" customModule="Expandable_Cells" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="ConstraintsCollapsibleCellId" id="FX5-lf-aTo" customClass="ConstraintsCollapsibleExampleTableViewCell" customModule="Expandable_Cells" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="28" width="414" height="219"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="FX5-lf-aTo" id="250-ht-z1N">
@@ -133,7 +133,7 @@ Item 2</string>
                                     <outlet property="requestButton" destination="xNr-77-hLJ" id="tgz-Np-3Sh"/>
                                 </connections>
                             </tableViewCell>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="StackViewCollapsibleCellId" id="W31-RJ-rPS" customClass="StackViewCollapsibleExampleTableViewCell" customModule="Expandable_Cells" customModuleProvider="target">
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="StackViewCollapsibleCellId" id="W31-RJ-rPS" customClass="StackViewCollapsibleExampleTableViewCell" customModule="Expandable_Cells" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="247" width="414" height="203"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="W31-RJ-rPS" id="fev-Qd-8Sb">
@@ -231,6 +231,86 @@ Item 2</string>
                                     <outlet property="personCostLabel" destination="mKS-h0-ovM" id="y0T-TT-DoF"/>
                                     <outlet property="personLabel" destination="6c6-fC-tmW" id="SYG-Cr-bpP"/>
                                     <outlet property="requestButton" destination="Ucp-JB-smA" id="9lc-bb-8Aj"/>
+                                </connections>
+                            </tableViewCell>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="StackViewSimpleCollapsibleCellId" id="5cv-6I-uZn" customClass="StackViewSimpleCollapisbleTableViewCell" customModule="Expandable_Cells" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="450" width="414" height="191.5"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="5cv-6I-uZn" id="Uql-VD-rBd">
+                                    <rect key="frame" x="0.0" y="0.0" width="414" height="191.5"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PhE-Qt-blB">
+                                            <rect key="frame" x="16" y="16" width="382" height="159.5"/>
+                                        </view>
+                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="WUB-CC-aba">
+                                            <rect key="frame" x="16" y="16" width="382" height="159.5"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Robert Downey Jr" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IzD-Iy-Bzj">
+                                                    <rect key="frame" x="0.0" y="0.0" width="382" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="J4B-Fx-ccQ"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Is a member since 2011" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tVY-c6-GuO">
+                                                    <rect key="frame" x="0.0" y="30" width="382" height="22"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="22" id="HhG-bl-HYO"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wz6-6C-poU">
+                                                    <rect key="frame" x="0.0" y="60" width="382" height="69.5"/>
+                                                    <string key="text">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</string>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" translatesAutoresizingMaskIntoConstraints="NO" id="0NN-xO-H47">
+                                                    <rect key="frame" x="0.0" y="137.5" width="382" height="22"/>
+                                                    <subviews>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="12th Feb 2020" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZAq-DZ-Hpb">
+                                                            <rect key="frame" x="0.0" y="0.0" width="230.5" height="22"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="22" id="BhD-aP-F3l"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="textColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="See more" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KJi-Ce-sbh">
+                                                            <rect key="frame" x="230.5" y="0.0" width="151.5" height="22"/>
+                                                            <constraints>
+                                                                <constraint firstAttribute="height" constant="22" id="zzh-6M-ai6"/>
+                                                            </constraints>
+                                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                            <color key="textColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                            <nil key="highlightedColor"/>
+                                                        </label>
+                                                    </subviews>
+                                                </stackView>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="WUB-CC-aba" firstAttribute="top" secondItem="PhE-Qt-blB" secondAttribute="top" id="2Pg-hP-XRx"/>
+                                        <constraint firstItem="WUB-CC-aba" firstAttribute="leading" secondItem="PhE-Qt-blB" secondAttribute="leading" id="Q7f-MP-CMf"/>
+                                        <constraint firstAttribute="trailing" secondItem="PhE-Qt-blB" secondAttribute="trailing" constant="16" id="QfI-Xo-9Vm"/>
+                                        <constraint firstItem="PhE-Qt-blB" firstAttribute="leading" secondItem="Uql-VD-rBd" secondAttribute="leading" constant="16" id="aot-vJ-ZuN"/>
+                                        <constraint firstAttribute="bottom" secondItem="PhE-Qt-blB" secondAttribute="bottom" constant="16" id="gXU-n0-z5k"/>
+                                        <constraint firstItem="WUB-CC-aba" firstAttribute="bottom" secondItem="PhE-Qt-blB" secondAttribute="bottom" id="ikI-G3-DX4"/>
+                                        <constraint firstItem="PhE-Qt-blB" firstAttribute="top" secondItem="Uql-VD-rBd" secondAttribute="top" constant="16" id="mcf-1k-50O"/>
+                                        <constraint firstItem="WUB-CC-aba" firstAttribute="trailing" secondItem="PhE-Qt-blB" secondAttribute="trailing" id="wZz-wy-M0z"/>
+                                    </constraints>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="descriptionLabel" destination="Wz6-6C-poU" id="IP0-cu-1xQ"/>
+                                    <outlet property="seeMoreLabel" destination="KJi-Ce-sbh" id="q09-cN-CV4"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>

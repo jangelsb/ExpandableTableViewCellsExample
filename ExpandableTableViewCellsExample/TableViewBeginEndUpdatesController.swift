@@ -10,7 +10,7 @@ import UIKit
 
 class TableViewBeginEndUpdatesController: UITableViewController {
     
-    var dataSource: [Bool] = (1...2).map { _ in false }
+    var dataSource: [Bool] = (1...3).map { _ in false }
     
     // MARK: - <UITableViewDataSource>
     override func numberOfSections(in tableView: UITableView) -> Int {
@@ -23,7 +23,18 @@ class TableViewBeginEndUpdatesController: UITableViewController {
     
     
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: indexPath.row < 1 ? "ConstraintsCollapsibleCellId" : "StackViewCollapsibleCellId", for: indexPath)
+        
+        let id: String
+        switch indexPath.row {
+        case 1:
+            id = "StackViewCollapsibleCellId"
+        case 2:
+            id = "StackViewSimpleCollapsibleCellId"
+        default:
+            id = "ConstraintsCollapsibleCellId"
+        }
+        
+        let cell = tableView.dequeueReusableCell(withIdentifier: id, for: indexPath)
         let shouldExpand = dataSource[indexPath.row]
         
         if let collapsibleCell = cell as? CollapsibleCell {
@@ -48,5 +59,4 @@ class TableViewBeginEndUpdatesController: UITableViewController {
         tableView.beginUpdates()
         tableView.endUpdates()
     }
-    
 }
