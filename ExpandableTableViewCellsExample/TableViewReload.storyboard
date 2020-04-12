@@ -7,7 +7,7 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Reload Examples-->
+        <!--Reload Automatic-->
         <scene sceneID="iBh-Y7-ft4">
             <objects>
                 <tableViewController id="1Mi-na-T9w" customClass="TableViewReloadController" customModule="Expandable_Cells" customModuleProvider="target" sceneMemberID="viewController">
@@ -319,7 +319,7 @@ Item 2</string>
                             <outlet property="delegate" destination="1Mi-na-T9w" id="ZiA-a6-QnU"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Reload Examples" id="AMA-tY-T5P"/>
+                    <navigationItem key="navigationItem" title="Reload Automatic" id="AMA-tY-T5P"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="tv3-rX-nBe" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

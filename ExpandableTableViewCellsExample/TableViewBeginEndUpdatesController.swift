@@ -54,6 +54,7 @@ class TableViewBeginEndUpdatesController: UITableViewController {
         
         let shouldExpand = !dataSource[indexPath.row]
         dataSource[indexPath.row] = shouldExpand
+        
         collapsibleCell.updateUI(shouldExpand: shouldExpand)
         
         tableView.beginUpdates()

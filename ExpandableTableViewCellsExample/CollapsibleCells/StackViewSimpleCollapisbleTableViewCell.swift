@@ -16,7 +16,7 @@ class StackViewSimpleCollapisbleTableViewCell: CollapsibleBaseCell {
     
     override func updateUI(shouldExpand: Bool) {
         
-        self.descriptionLabel.numberOfLines = shouldExpand ? 3 : 0
+        self.descriptionLabel.numberOfLines = shouldExpand ? 0 : 3
         self.descriptionLabel.layoutIfNeeded()
         
         seeMoreLabel.text = shouldExpand ? "See less" : "See more"
